@@ -19,6 +19,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import com.ahmedapps.bankningappui.CurrenciesSection
 import com.example.bankingapp.ui.theme.BankingAppTheme
 import com.google.accompanist.systemuicontroller.rememberSystemUiController
 
@@ -79,7 +80,7 @@ fun HomeScreen(){
             Spacer(modifier = Modifier.height(16.dp))
 
             FinanceSection()
-            //CurrenciesSection()
+            CurrenciesSection()
         }
 
     }
